@@ -31,7 +31,7 @@ async function connectToDatabase() {
     await sql.connect(config);
     console.log("Connected to Azure SQL Database");
   } catch (err) {
-    console.error("Error connecting to Azure SQL Database:", err);
+    console.error("Error connecting to Azure SQL Database: ", err);
   }
 }
 
